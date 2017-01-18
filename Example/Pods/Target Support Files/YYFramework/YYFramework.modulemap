@@ -1,6 +1,0 @@
-framework module YYFramework {
-  umbrella header "YYFramework-umbrella.h"
-
-  export *
-  module * { export * }
-}
