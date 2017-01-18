@@ -1,5 +1,27 @@
 PODS:
-  - YYFramework (0.1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - YYFramework (0.1.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - YYFramework (from `../`)
@@ -9,7 +31,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YYFramework: b7cb164d03656580327abf8fbc698b660b34cbab
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  YYFramework: 253e06fc9198d9c9a04450fe92d789c2e3aeaffd
 
 PODFILE CHECKSUM: 6448d4f57d384efb37ddbafb00c3ca53127382f9
 

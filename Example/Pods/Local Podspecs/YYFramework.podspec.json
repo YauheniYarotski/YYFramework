@@ -1,9 +1,9 @@
 {
   "name": "YYFramework",
   "version": "0.1.0",
-  "summary": "A short description of YYFramework.",
+  "summary": "Test project to test specs repo in branch.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/YYFramework",
+  "homepage": "https://github.com/YauheniYarotski/YYFramework",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,18 @@
     "Yauheni Yarotski": "yauheni_yarotski@me.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/YYFramework.git",
+    "git": "https://github.com/YauheniYarotski/YYFramework.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YYFramework/Classes/**/*"
+  "source_files": "YYFramework/Classes/**/*",
+  "public_header_files": "YYFramework/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
 }
