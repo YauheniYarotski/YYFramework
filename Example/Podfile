@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YYFramework_Example' do
+  pod 'YYFramework', :path => '../'
+
+  target 'YYFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
