@@ -1,0 +1,16 @@
+PODS:
+  - YYFramework (0.1.0)
+
+DEPENDENCIES:
+  - YYFramework (from `../`)
+
+EXTERNAL SOURCES:
+  YYFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YYFramework: b7cb164d03656580327abf8fbc698b660b34cbab
+
+PODFILE CHECKSUM: 6448d4f57d384efb37ddbafb00c3ca53127382f9
+
+COCOAPODS: 1.1.1

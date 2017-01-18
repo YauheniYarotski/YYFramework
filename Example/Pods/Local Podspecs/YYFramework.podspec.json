@@ -1,0 +1,22 @@
+{
+  "name": "YYFramework",
+  "version": "0.1.0",
+  "summary": "A short description of YYFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/YYFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yauheni Yarotski": "yauheni_yarotski@me.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/YYFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YYFramework/Classes/**/*"
+}

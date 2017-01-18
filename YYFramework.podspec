@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YYFramework'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YYFramework.'
+  s.summary          = 'Test project to test specs repo in branch.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/YYFramework'
+  s.homepage         = 'https://github.com/YauheniYarotski/YYFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yauheni Yarotski' => 'yauheni_yarotski@me.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/YYFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/YauheniYarotski/YYFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'YYFramework' => ['YYFramework/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.public_header_files = 'YYFramework/Classes/**/*.h'
+    s.frameworks = 'UIKit'
+    s.dependency 'AFNetworking', '~> 2.3'
 end
